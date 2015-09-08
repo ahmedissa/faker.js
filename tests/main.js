@@ -48,3 +48,7 @@ randomName  = faker.bank.iban();
 
 
 console.log(randomName);
+
+randomName = faker.lorem.qcSentences();
+
+console.log(randomName);
